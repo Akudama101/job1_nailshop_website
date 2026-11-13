@@ -58,22 +58,22 @@ const SERVICES_DATA = [
   { image: '/images/2.jpeg', name: 'Full glam makeup', description: 'Bold, high-impact glam tailored for maximum definition and a polished finish.', Details: '', serviceType: 'makeup service' },
   { image: '/images/5.jpeg', name: 'Bridal makeup', description: 'Wedding-ready makeup with long-lasting wear, refined contouring and photo-friendly finishing.', Details: '', serviceType: 'makeup service' },
   { image: '/images/8.jpeg', name: 'Photoshoot & event makeup', description: 'Makeup designed for birthdays, dinners, parties, interviews and other special occasions.', Details: '', serviceType: 'makeup service' },
-  { image: '/other/accrelyc.webp', name: 'Acrylic / gel application', description: 'Neat application with strength and a clean, polished finish.', Details: '', serviceType: 'nails' },
-  { image: '/other/jejj.jpg', name: 'BIAB & Gel X', description: 'Premium enhancement options designed for durability and a refined look.', Details: '', serviceType: 'nails' },
-  { image: '/other/pedicure.webp', name: 'Pedicures & manicures', description: 'Full nail care including shaping, cuticle care, and finishing.', Details: '', serviceType: 'nails' },
-  { image: '/other/nail art.jpeg', name: 'Nail art', description: 'Designs ranging from simple elegant patterns to detailed artwork and themed sets.', Details: '', serviceType: 'nails' },
+  { image: '/newImg/acrylic_nail.jpeg', name: 'Acrylic / gel application', description: 'Neat application with strength and a clean, polished finish.', Details: '', serviceType: 'nails' },
+  { image: '/newImg/baib_Nail.jpeg', name: 'BIAB & Gel X', description: 'Premium enhancement options designed for durability and a refined look.', Details: '', serviceType: 'nails' },
+  { image: '/newImg/padicure.jpeg', name: 'Pedicures & manicures', description: 'Full nail care including shaping, cuticle care, and finishing.', Details: '', serviceType: 'nails' },
+  { image: '/newImg/nail_art.jpeg', name: 'Nail art', description: 'Designs ranging from simple elegant patterns to detailed artwork and themed sets.', Details: '', serviceType: 'nails' },
   { image: '/other/ccee.jpeg', name: 'Removal / overhaul', description: 'Safe removal and cleanup; can be followed by a fresh set.', Details: '', serviceType: 'nails' },
 ]
 
 const GALLERY = [
   { image: '/images/8.jpeg', initials: 'A.M.', work: 'Bridal makeup', category: 'makeup', ratio: 'aspect-[3/4]' },
-  { image: '/other/jejj.jpg', initials: 'K.O.', work: 'Nail art', category: 'nails', ratio: 'aspect-square' },
+  { image: '/newImg/nail_art1.jpeg', initials: 'K.O.', work: 'Nail art', category: 'nails', ratio: 'aspect-square' },
   { image: '/images/9.jpeg', initials: 'E.B.', work: 'Soft glam', category: 'makeup', ratio: 'aspect-[4/5]' },
-  { image: '/other/acrelic_new.jpeg', initials: 'N.A.', work: 'BIAB set', category: 'nails', ratio: 'aspect-[4/3]' },
+  { image: '/newImg/BIAB_nail.jpeg', initials: 'N.A.', work: 'BIAB set', category: 'nails', ratio: 'aspect-[4/3]' },
   { image: '/images/3.jpeg', initials: 'S.D.', work: 'Event makeup', category: 'makeup', ratio: 'aspect-square' },
-  { image: '/other/longnails.jpeg', initials: 'P.T.', work: 'Gel X', category: 'nails', ratio: 'aspect-[3/4]' },
+  { image: '/newImg/gel_x.jpeg', initials: 'P.T.', work: 'Gel X', category: 'nails', ratio: 'aspect-[3/4]' },
   { image: '/images/2.jpeg', initials: 'L.Y.', work: 'Full glam', category: 'makeup', ratio: 'aspect-[4/5]' },
-  { image: '/other/nailswhite.jpeg', initials: 'R.K.', work: 'Manicure', category: 'nails', ratio: 'aspect-[4/3]' },
+  { image: '/newImg/manicure.jpeg', initials: 'R.K.', work: 'Manicure', category: 'nails', ratio: 'aspect-[4/3]' },
   { image: '/images/13.jpeg', initials: 'J.A.', work: 'Photoshoot makeup', category: 'makeup', ratio: 'aspect-[3/4]' },
 ]
 const REVIEWS = [
