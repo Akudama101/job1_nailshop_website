@@ -1,3 +1,4 @@
+
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
@@ -65,15 +66,15 @@ const SERVICES_DATA = [
 ]
 
 const GALLERY = [
-  { image: '/images/2.jpeg', initials: 'A.M.', work: 'Bridal makeup', category: 'makeup', ratio: 'aspect-[3/4]' },
+  { image: '/images/8.jpeg', initials: 'A.M.', work: 'Bridal makeup', category: 'makeup', ratio: 'aspect-[3/4]' },
   { image: '/other/jejj.jpg', initials: 'K.O.', work: 'Nail art', category: 'nails', ratio: 'aspect-square' },
-  { image: '/images/3.jpeg', initials: 'E.B.', work: 'Soft glam', category: 'makeup', ratio: 'aspect-[4/5]' },
+  { image: '/images/9.jpeg', initials: 'E.B.', work: 'Soft glam', category: 'makeup', ratio: 'aspect-[4/5]' },
   { image: '/other/acrelic_new.jpeg', initials: 'N.A.', work: 'BIAB set', category: 'nails', ratio: 'aspect-[4/3]' },
-  { image: '/images/4.jpeg', initials: 'S.D.', work: 'Event makeup', category: 'makeup', ratio: 'aspect-square' },
+  { image: '/images/3.jpeg', initials: 'S.D.', work: 'Event makeup', category: 'makeup', ratio: 'aspect-square' },
   { image: '/other/longnails.jpeg', initials: 'P.T.', work: 'Gel X', category: 'nails', ratio: 'aspect-[3/4]' },
-  { image: '/images/9.jpeg', initials: 'L.Y.', work: 'Full glam', category: 'makeup', ratio: 'aspect-[4/5]' },
+  { image: '/images/2.jpeg', initials: 'L.Y.', work: 'Full glam', category: 'makeup', ratio: 'aspect-[4/5]' },
   { image: '/other/nailswhite.jpeg', initials: 'R.K.', work: 'Manicure', category: 'nails', ratio: 'aspect-[4/3]' },
-  { image: '/images/8.jpeg', initials: 'J.A.', work: 'Photoshoot makeup', category: 'makeup', ratio: 'aspect-[3/4]' },
+  { image: '/images/13.jpeg', initials: 'J.A.', work: 'Photoshoot makeup', category: 'makeup', ratio: 'aspect-[3/4]' },
 ]
 const REVIEWS = [
   { name: 'Ama K.', service: 'Bridal makeup', rating: 5, text: 'My makeup lasted from the morning ceremony to the last dance. I felt like myself, only more radiant. Every photo came out beautifully.' },
@@ -88,7 +89,7 @@ const REVIEWS_STORAGE_KEY = 'shades-demure-reviews'
 
 const FAQS = [
   { q: 'How do I book an appointment?', a: 'Use the booking form on this page, or tap the WhatsApp button and send us a message. We will confirm your slot after checking availability.' },
-  { q: 'Do I need to pay a deposit?', a: 'A small deposit may be needed to secure bridal and event bookings. We will share the details when we confirm your date.' },
+  { q: 'Do I need to pay a deposit?', a: 'A deposit of a non-refundable 100 cedis is required to secure any of our services except bridal and home services. For Bridals and Home services, a non-refundable deposit of 70% is required to secure your bookings.' },
   { q: 'How long does a session take?', a: 'Makeup usually takes 45 to 90 minutes. Bridal makeup and nail sets with detailed art can take longer. We will give you a time estimate when you book.' },
   { q: 'Can I reschedule or cancel?', a: 'Yes. Please let us know at least 24 hours ahead so we can offer the slot to someone else and find you a new time.' },
   { q: 'Do you offer removal of nails done elsewhere?', a: 'Yes. Our Removal / overhaul service safely takes off old sets and can be followed by a fresh set in the same visit.' },
